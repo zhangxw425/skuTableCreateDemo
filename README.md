@@ -1,0 +1,2 @@
+# skuTableCreateDemo
+淘宝发布商品时的sku价格表格生成实例代码
