@@ -1,0 +1,69 @@
+/*实例标题*/
+.demo-title{
+	font-size: 22px;
+	text-align: center;
+	color: red;
+}
+/*sku选择样式*/
+li{list-style: none;margin-right:10px;}
+li label{cursor: pointer;}
+li{float: left;}
+.clear{
+	clear: both;
+}
+/*表格样式*/
+table.skuTable {
+    font-size:14px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #ddd;
+    margin:30px;
+    border-collapse: collapse;
+}
+table.skuTable th {
+    border-width: 1px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-color: #ddd;
+    color:#666;
+    background-color: #ededed;
+}
+table.skuTable td {
+    border-width: 1px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-color: #ddd;
+    background-color: #ffffff;
+    color:#666;
+    widows: auto;
+    text-align: center;
+}
+table.skuTable td input{
+	width:100%;
+	border:none;
+	font-size:14px;
+	padding:0;
+	margin:0;
+	color:#666;
+}
+/*输入框样式*/
+input[type="text"]{
+	height: 25px;
+	line-height: 25px;
+}
+
+/*按钮样式*/
+button{
+	padding: 6px 10px;
+	color: #FFA500;
+}
+.cloneSku{
+	margin: 30px 0 0 30px;
+}
+
+/*其他样式*/
+li em{
+	color: #f00;
+	margin-left: -8px;
+	width: 8px;
+}
